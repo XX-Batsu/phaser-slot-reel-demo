@@ -2,12 +2,12 @@
   "name": "slot-base",
   "version": "v0.1.2",
   "description": "The base of slot games.",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "init": "yarn; yarn link;",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src",
-    "build": "rm -rf lib && babel src --presets latest -d lib",
+    "build": "shx rm -rf lib && babel src --presets latest -d lib",
     "reinstall": "rm -rf node_modules; rm yarn.lock; yarn cache clean; yarn"
   },
   "repository": {
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "babel": "6.5.2",
+    "shx": "0.3.4",
     "babel-cli": "6.18.0",
     "babel-plugin-add-module-exports": "0.2.1",
     "babel-plugin-lodash": "3.2.10",
