@@ -1,0 +1,583 @@
+{   
+    "helpSort": [ "PayTable", "SymbolRule", "FeatureRule", "FeatureRule", "GameTypeRule" ],
+    "operationType": "button",
+    "slideButton": null,
+    "remarks": {
+        "txt": "Malfunction Voids All Pays and Play.",
+        "style": {
+            "font": "40px  '微软雅黑' ",
+            "fill": "#825c2b",
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "top",
+            "wordWrap": true,
+            "wordWrapWidth": 1920,
+            "fontWeight": "bold",
+            "lineSpacing": 0
+        }
+    },
+    "payTable": {
+        "title": {
+            "txt": "PAYTABLE",
+            "style": {
+                "font": "60px  '微软雅黑' ",
+                "fill": "#ffba00",
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "top",
+                "wordWrap": true,
+                "wordWrapWidth": 1920,
+                "fontWeight": "bold",
+                "lineSpacing": 0
+            }
+        },
+        "rewardTable": {
+            "startY": -120,
+            "cellWidth": 400,
+            "cellHeight": 450,
+            "rowMaxNum": 6,
+            "spaceY": 50,
+            "rewardTxtDirection": "BOTTOM",
+            "rewardTxtSpace": -80,
+            "spaceStr": " ",
+            "dash": "-",
+            "keyColor": "#ffba00",
+            "valueColor": "#ffffff",
+            "style": {
+                "font": "40px  '微软雅黑' ",
+                "fill": "#ffffff",
+                "align": "left",
+                "boundsAlignH": "left",
+                "boundsAlignV": "top",
+                "fontWeight": "bold",
+                "wordWrap": true,
+                "wordWrapWidth": 1920
+            },
+            "symbols": [
+                [{  
+                    "symbolID": "H1",
+                    "iaOdds": [0, 0, 25, 150, 500],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "H2",
+                    "iaOdds": [0, 0, 15, 75, 250],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "H3",
+                    "iaOdds": [0, 0, 15, 75, 250],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "H4",
+                    "iaOdds": [0, 0, 10, 50, 150],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "H5",
+                    "iaOdds": [0, 0, 10, 50, 150],
+                    "isMultiplier": false
+                }],
+                [{
+                    "symbolID": "N1",
+                    "iaOdds": [0, 0, 5, 15, 100],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "N2",
+                    "iaOdds": [0, 0, 5, 150, 100],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "N3",
+                    "iaOdds": [0, 0, 5, 10, 50],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "N4",
+                    "iaOdds": [0, 0, 5, 10, 50],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "N5",
+                    "iaOdds": [0, 0, 5, 10, 50],
+                    "isMultiplier": false
+                }]
+            ]
+        }
+    },
+    "symbolRule": {
+        "spaceX": 0,
+        "spaceY": -100,
+        "richTextSpaceX": 0,
+        "richTextSpaceY": 50,
+        "title": {},
+        "rowMaxNum": 1,
+        "position": "TOP_CENTER",
+        "dividingLine": true,
+        "dividingLineSpace": 100,
+        "richTextBox": [
+            {   
+                "rectRange": {
+                    "width": 400,
+                    "height": 445
+                },
+                "titles": {
+                    "style": {
+                        "font": "60px  '微软雅黑' ",
+                        "fill": "#ffbe06",
+                        "align": "center",
+                        "boundsAlignH": "center",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1920,
+                        "fontWeight": "bold",
+                        "lineSpacing": 0
+                    },
+                    "txt": "WILD",
+                    "direction": "TOP_CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "images": {
+                    "key":"symbol",
+                    "frame":"img_symbol_W.png",
+                    "direction": "CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "contents": {
+                    "rectAlign": "TO", 
+                    "offsetX": 250,
+                    "offsetY": -120,
+                    "txtSpacing": 8,
+                    "direction": "RIGHT_TOP",
+                    "style": {
+                        "font": "30px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1000,
+                        "fontWeight": "normal",
+                        "lineSpacing": 20
+                    },
+                    "txt": [ 
+                        "● [W] substitutes for all symbols except [F], and only appears on reels 1, 5."
+                    ]
+                },
+                "rewardTable": {
+                    "rectAlign": "TO", 
+                    "offsetX": -20,
+                    "offsetY": 0,
+                    "direction": "RIGHT_CENTER",
+                    "dash": "-",
+                    "spaceStr": " ",
+                    "txtSpace": 5,
+                    "keyColor": "#ffba00",
+                    "valueColor": "#ffffff",
+                    "style": {
+                        "font": "40px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "fontWeight": "bold",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1920
+                    },
+                    "symbolID": "W",
+                    "iaOdds": [0, 5, 25, 250, 2500],
+                    "isMultiplier": false
+                }
+            },
+            {   
+                "rectRange": {
+                    "width": 400,
+                    "height": 445
+                },
+                "titles": {
+                    "style": {
+                        "font": "60px  '微软雅黑' ",
+                        "fill": "#ffbe06",
+                        "align": "center",
+                        "boundsAlignH": "center",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1920,
+                        "fontWeight": "bold",
+                        "lineSpacing": 0
+                    },
+                    "txt": "SCATTER",
+                    "direction": "TOP_CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "images": {
+                    "key":"symbol",
+                    "frame":"img_symbol_F.png",
+                    "direction": "CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "contents": {
+                    "rectAlign": "TO", 
+                    "offsetX": 250,
+                    "offsetY": 10,
+                    "txtSpacing": 8,
+                    "direction": "RIGHT_CENTER",
+                    "style": {
+                        "font": "30px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1000,
+                        "fontWeight": "normal",
+                        "lineSpacing": 20
+                    },
+                    "txt": [ 
+                        "● 3, 4 or 5 [F] anywhere on the reels trigger 12 Free Spins, and win 2X, 10X or 50X total bet."
+                    ]
+                },
+                "rewardTable": {
+                    "rectAlign": "TO", 
+                    "offsetX": -20,
+                    "offsetY": 0,
+                    "direction": "RIGHT_CENTER",
+                    "dash": "-",
+                    "spaceStr": " ",
+                    "txtSpace": 5,
+                    "keyColor": "#ffba00",
+                    "valueColor": "#ffffff",
+                    "style": {
+                        "font": "40px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "fontWeight": "bold",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1920
+                    },
+                    "symbolID": "F",
+                    "iaOdds": [0, 0, 2, 5, 500],
+                    "isMultiplier": true
+                }
+            }
+        ]
+    },
+    "featureRule": [
+        {
+            "spaceX": 0,
+            "spaceY": -50,
+            "richTextSpaceX": 0,
+            "richTextSpaceY": -100,
+            "title": {},
+            "rowMaxNum": 1,
+            "position": "CENTER",
+            "richTextBox": [
+                {   
+                    "rectRange": {
+                        "width": 400,
+                        "height": 120
+                    },
+                    "titles": {
+                        "style": {
+                            "font": "60px  '微软雅黑' ",
+                            "fill": "#ffbe06",
+                            "align": "center",
+                            "boundsAlignH": "center",
+                            "boundsAlignV": "top",
+                            "wordWrap": true,
+                            "wordWrapWidth": 1920,
+                            "fontWeight": "bold",
+                            "lineSpacing": 0
+                        },
+                        "txt": "Feature",
+                        "direction": "TOP_CENTER",
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rectAlign": "IN"
+                    },
+                    "images": {},
+                    "contents": {
+                        "rectAlign": "TO", 
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "txtSpacing": 8,
+                        "direction": "BOTTOM_CENTER",
+                        "style": {
+                            "font": "30px  '微软雅黑' ",
+                            "fill": "#ffffff",
+                            "align": "left",
+                            "boundsAlignH": "left",
+                            "boundsAlignV": "top",
+                            "wordWrap": true,
+                            "wordWrapWidth": 1500,
+                            "fontWeight": "normal",
+                            "lineSpacing": 20
+                        },
+                        "txt": [ 
+                            "● During Free Game, [H1] only appears on reel 1 and will turn into [H1W] before next spin.", 
+                            "●  [H1W] will shift to the right with each spin. [H1W] on reel 5 will shift to reel 1. "
+                        ]
+                    }
+                },
+                {   
+                    "rectRange": {
+                        "width": 400,
+                        "height": 120
+                    },
+                    "titles": {
+                        "style": {
+                            "font": "60px  '微软雅黑' ",
+                            "fill": "#ffbe06",
+                            "align": "center",
+                            "boundsAlignH": "center",
+                            "boundsAlignV": "top",
+                            "wordWrap": true,
+                            "wordWrapWidth": 1920,
+                            "fontWeight": "bold",
+                            "lineSpacing": 0
+                        },
+                        "txt": "Re-trigger Rule",
+                        "direction": "TOP_CENTER",
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rectAlign": "IN"
+                    },
+                    "images": {},
+                    "contents": {
+                        "rectAlign": "TO", 
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "txtSpacing": 8,
+                        "direction": "BOTTOM_CENTER",
+                        "style": {
+                            "font": "30px  '微软雅黑' ",
+                            "fill": "#ffffff",
+                            "align": "left",
+                            "boundsAlignH": "left",
+                            "boundsAlignV": "top",
+                            "wordWrap": true,
+                            "wordWrapWidth": 1500,
+                            "fontWeight": "normal",
+                            "lineSpacing": 20
+                        },
+                        "txt": [ 
+                            "● Player can retrigger 5 Free Spins with 3 [F1] anywhere on the reel 2, 3, 4, and win 2X total bet during free games. Player can retrigger the Bonus multiple times.", 
+                            "● [F1] only appears in Free Game.",
+                            "● The maximum number of free spins allowed is 50.",
+                            "● During free game, the bet is the same as the game triggered the bonus."
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "spaceX": 0,
+            "spaceY": -200,
+            "richTextSpaceX": -200,
+            "richTextSpaceY": 50,
+            "title": {
+                "offsetX": 0,
+                "offsetY": -50,
+                "txt": "Feature",
+                "style": {
+                    "font": "60px  '微软雅黑' ",
+                    "fill": "#ffba00",
+                    "align": "center",
+                    "boundsAlignH": "center",
+                    "boundsAlignV": "top",
+                    "wordWrap": true,
+                    "wordWrapWidth": 1920,
+                    "fontWeight": "bold",
+                    "lineSpacing": 0
+                }
+            },
+            "rowMaxNum": 2,
+            "position": "TOP_CENTER",
+            "richTextBox": [
+                {   
+                    "rectRange": {
+                        "width": 400,
+                        "height": 445
+                    },
+                    "titles": {
+                        "style": {
+                            "font": "30px  '微软雅黑' ",
+                            "fill": "#ffffff",
+                            "align": "left",
+                            "boundsAlignH": "left",
+                            "boundsAlignV": "top",
+                            "wordWrap": true,
+                            "wordWrapWidth": 1500,
+                            "fontWeight": "normal",
+                            "lineSpacing": 20
+                        },
+                        "txt": "Two Featured Free Games can be chosen when a free game be triggered. ",
+                        "direction": "TOP_CENTER",
+                        "offsetX": 200,
+                        "offsetY": 0,
+                        "rectAlign": "IN"
+                    },
+                    "images": {
+                        "key":"symbol",
+                        "frame":"img_symbol_W.png",
+                        "direction": "CENTER",
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rectAlign": "IN"
+                    },
+                    "contents": {
+                        "rectAlign": "TO", 
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "txtSpacing": 8,
+                        "direction": "BOTTOM_CENTER",
+                        "style": {
+                            "font": "30px  '微软雅黑' ",
+                            "fill": "#ffffff",
+                            "align": "left",
+                            "boundsAlignH": "left",
+                            "boundsAlignV": "top",
+                            "wordWrap": true,
+                            "wordWrapWidth": 800,
+                            "fontWeight": "normal",
+                            "lineSpacing": 20
+                        },
+                        "txt": [ 
+                            " Every symbol on the reel 1, 5 is [W], and [W] \nonly appears on reels 1, 5."
+                        ]
+                    }
+                },
+                {   
+                    "rectRange": {
+                        "width": 400,
+                        "height": 445
+                    },
+                    "titles": {},
+                    "images": {
+                        "key":"symbol",
+                        "frame":"img_symbol_F.png",
+                        "direction": "CENTER",
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "rectAlign": "IN"
+                    },
+                    "contents": {
+                        "rectAlign": "TO", 
+                        "offsetX": 0,
+                        "offsetY": 0,
+                        "txtSpacing": 8,
+                        "direction": "BOTTOM_CENTER",
+                        "style": {
+                            "font": "30px  '微软雅黑' ",
+                            "fill": "#ffffff",
+                            "align": "left",
+                            "boundsAlignH": "left",
+                            "boundsAlignV": "top",
+                            "wordWrap": true,
+                            "wordWrapWidth": 800,
+                            "fontWeight": "normal",
+                            "lineSpacing": 20
+                        },
+                        "txt": [ 
+                            "Random 2 reels are covered with only overlay wilds for each spin, and [W] only appears on these two chosen reels."
+                        ]
+                    }
+                },
+                {   
+                    "rectRange": {
+                        "width": 400,
+                        "height": 0
+                    },
+                    "titles": {},
+                    "images": {},
+                    "contents": {
+                        "rectAlign": "TO", 
+                        "offsetX": 100,
+                        "offsetY": 50,
+                        "txtSpacing": 8,
+                        "direction": "BOTTOM_LEFT",
+                        "style": {
+                            "font": "30px  '微软雅黑' ",
+                            "fill": "#ffffff",
+                            "align": "left",
+                            "boundsAlignH": "left",
+                            "boundsAlignV": "top",
+                            "wordWrap": true,
+                            "wordWrapWidth": 1500,
+                            "fontWeight": "normal",
+                            "lineSpacing": 20
+                        },
+                        "txt": [ 
+                            "● During free game, the bet is the same as the game triggered the bonus." , 
+                            "● Free spins can not be retriggered."
+                        ]
+                    }
+                }
+            ]
+    }],
+    "gameTypeRule": {
+        "title": {
+            "txt": "243 Way",
+            "offsetY": -10,
+            "style": {
+                "font": "100px  '微软雅黑' ",
+                "fill": "#ffba00",
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "top",
+                "wordWrap": true,
+                "wordWrapWidth": 1920,
+                "fontWeight": "bold",
+                "lineSpacing": 0
+            }
+        },
+        "content": {
+            "txt": "Player will win prize with any 3 or more the same icons appearing on the continuous reels from leftmost to right.",
+            "offsetY": -200,
+            "scale": 0.7,
+            "style": {
+                "font": "50px  '微软雅黑' ",
+                "fill": "#ffffff",
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "top",
+                "wordWrap": true,
+                "wordWrapWidth": 1920,
+                "fontWeight": "normal",
+                "lineSpacing": 0
+            },
+            "paylineTable": {
+                "path": [
+                    [ 1, 1, 1, 1, 1 ], [ 0, 0, 0, 0, 0 ], [ 2, 2, 2, 2, 2 ], [ 0, 1, 2, 1, 0 ],
+                    [ 2, 1, 0, 1, 2 ], [ 0, 0, 1, 2, 2 ], [ 2, 2, 1, 0, 0 ], [ 1, 0, 1, 2, 1 ],
+                    [ 1, 2, 1, 0, 1 ], [ 0, 1, 1, 1, 2 ], [ 2, 1, 1, 1, 0 ], [ 1, 0, 0, 1, 2 ],
+                    [ 1, 2, 2, 1, 0 ], [ 1, 1, 0, 1, 2 ], [ 1, 1, 2, 1, 0 ], [ 0, 0, 1, 2, 1 ],
+                    [ 2, 2, 1, 0, 1 ], [ 1, 0, 1, 2, 2 ], [ 1, 2, 1, 0, 0 ], [ 0, 0, 0, 1, 2 ],
+                    [ 2, 2, 2, 1, 0 ], [ 2, 1, 0, 0, 0 ], [ 0, 1, 2, 2, 2 ], [ 0, 1, 2, 1, 2 ],
+                    [ 2, 1, 0, 1, 0 ], [ 1, 1, 0, 1, 1 ], [ 1, 1, 2, 1, 1 ], [ 1, 0, 1, 0, 1 ],
+                    [ 1, 2, 1, 2, 1 ], [ 1, 0, 0, 0, 1 ]
+                ],
+                "mapSpaceX": null,
+                "mapSpaceY": null,
+                "rowNumMax": 10,
+                "src":"",
+                "scale": 0.7,
+                "offsetY": 50,
+                "titleStyle": {
+                    "font": "50px  '微软雅黑'",
+                    "fill": "#ffffff",
+                    "align": "left",
+                    "boundsAlignH": "left",
+                    "boundsAlignV": "top",
+                    "wordWrap": true,
+                    "fontWeight": "bold",
+                    "wordWrapWidth": 1920
+                }
+            }
+        }
+    }
+}

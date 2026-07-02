@@ -1,0 +1,332 @@
+{"frames": {
+
+"moai_r_swallow_1.png":
+{
+	"frame": {"x":0,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_2.png":
+{
+	"frame": {"x":286,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_3.png":
+{
+	"frame": {"x":572,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_4.png":
+{
+	"frame": {"x":858,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_5.png":
+{
+	"frame": {"x":1144,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_6.png":
+{
+	"frame": {"x":1430,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_7.png":
+{
+	"frame": {"x":1716,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_8.png":
+{
+	"frame": {"x":2002,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_9.png":
+{
+	"frame": {"x":2288,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_10.png":
+{
+	"frame": {"x":2574,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_11.png":
+{
+	"frame": {"x":2860,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_12.png":
+{
+	"frame": {"x":3146,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_13.png":
+{
+	"frame": {"x":3432,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_14.png":
+{
+	"frame": {"x":3718,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_15.png":
+{
+	"frame": {"x":0,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_16.png":
+{
+	"frame": {"x":286,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_17.png":
+{
+	"frame": {"x":572,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_18.png":
+{
+	"frame": {"x":858,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_19.png":
+{
+	"frame": {"x":1144,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_20.png":
+{
+	"frame": {"x":1430,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_21.png":
+{
+	"frame": {"x":1716,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_22.png":
+{
+	"frame": {"x":2002,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_23.png":
+{
+	"frame": {"x":2288,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_24.png":
+{
+	"frame": {"x":2574,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_25.png":
+{
+	"frame": {"x":2860,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_26.png":
+{
+	"frame": {"x":3146,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_27.png":
+{
+	"frame": {"x":3432,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_28.png":
+{
+	"frame": {"x":3718,"y":410,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_29.png":
+{
+	"frame": {"x":0,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_30.png":
+{
+	"frame": {"x":286,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_31.png":
+{
+	"frame": {"x":572,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_32.png":
+{
+	"frame": {"x":858,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_33.png":
+{
+	"frame": {"x":1144,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_34.png":
+{
+	"frame": {"x":1430,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_35.png":
+{
+	"frame": {"x":1716,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_36.png":
+{
+	"frame": {"x":2002,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_37.png":
+{
+	"frame": {"x":2288,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_38.png":
+{
+	"frame": {"x":2574,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_39.png":
+{
+	"frame": {"x":2860,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_swallow_40.png":
+{
+	"frame": {"x":3146,"y":820,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "clip_moai_r_swallow.png",
+	"format": "RGBA8888",
+	"size": {"w":4004,"h":1230},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a475e21894be6e11720d66d156b026b3:e55c5cbcf86d764c29229936b10c4535:b0a78fb819f4295ada8642d66c814986$"
+}
+}

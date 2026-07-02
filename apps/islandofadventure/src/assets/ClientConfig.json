@@ -1,0 +1,8 @@
+{
+    "GS_DEV": "ws://127.0.0.1:8080/",
+    "GS_ADDRESS": "ws://127.0.0.1:8080/",
+    "HOME_ADDRESS": "https://www.google.com",
+    "GAME_ID": "356156F0BC6ED9E3D339452FCE1C4D7C",
+    "MAINTENANCE_HOUR": 10,
+    "MAINTENANCE_MINUTE": 0
+}

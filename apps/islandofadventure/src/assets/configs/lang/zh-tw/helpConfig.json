@@ -1,0 +1,605 @@
+{   
+    "helpSort": [ "PayTable", "SymbolRule", "FeatureRule", "FeatureRule", "GameTypeRule" ],
+    "operationType": "slide",
+    "slideButton": {
+        "x": 80,
+        "y": 320,
+        "space": 50,
+        "isVertical": true,
+        "fill": {
+            "color": "0x273c75",
+            "alpha": 1
+        },
+        "diameter": 40,
+        "lineStyle": {
+            "lineWidth": 5,
+            "color": "0xffffff",
+            "alpha": 1
+        },
+        "selectColor": "0x273c75"
+    },
+    "remarks": {
+        "txt": "游戏出现故障时，所有赔付和游戏都视为无效。",
+        "style": {
+            "font": "40px  '微软雅黑' ",
+            "fill": "#825c2b",
+            "align": "center",
+            "boundsAlignH": "center",
+            "boundsAlignV": "top",
+            "wordWrap": true,
+            "wordWrapWidth": 1920,
+            "fontWeight": "bold",
+            "lineSpacing": 0
+        }
+    },
+    "payTable": {
+        "title": {
+            "txt": "赔率表",
+            "style": {
+                "font": "60px  '微软雅黑' ",
+                "fill": "#ffba00",
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "top",
+                "wordWrap": true,
+                "wordWrapWidth": 1920,
+                "fontWeight": "bold",
+                "lineSpacing": 0
+            }
+        },
+        "rewardTable": {
+            "startY": -120,
+            "cellWidth": 400,
+            "cellHeight": 450,
+            "rowMaxNum": 6,
+            "spaceY": 50,
+            "rewardTxtDirection": "BOTTOM",
+            "rewardTxtSpace": -80,
+            "spaceStr": " ",
+            "dash": "-",
+            "keyColor": "#ffba00",
+            "valueColor": "#ffffff",
+            "style": {
+                "font": "40px  '微软雅黑' ",
+                "fill": "#ffffff",
+                "align": "left",
+                "boundsAlignH": "left",
+                "boundsAlignV": "top",
+                "fontWeight": "bold",
+                "wordWrap": true,
+                "wordWrapWidth": 1920
+            },
+            "symbols": [
+                [{  
+                    "symbolID": "H1",
+                    "iaOdds": [0, 0, 25, 150, 500],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "H2",
+                    "iaOdds": [0, 0, 15, 75, 250],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "H3",
+                    "iaOdds": [0, 0, 15, 75, 250],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "H4",
+                    "iaOdds": [0, 0, 10, 50, 150],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "H5",
+                    "iaOdds": [0, 0, 10, 50, 150],
+                    "isMultiplier": false
+                }],
+                [{
+                    "symbolID": "N1",
+                    "iaOdds": [0, 0, 5, 15, 100],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "N2",
+                    "iaOdds": [0, 0, 5, 150, 100],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "N3",
+                    "iaOdds": [0, 0, 5, 10, 50],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "N4",
+                    "iaOdds": [0, 0, 5, 10, 50],
+                    "isMultiplier": false
+                }, {
+                    "symbolID": "N5",
+                    "iaOdds": [0, 0, 5, 10, 50],
+                    "isMultiplier": false
+                }]
+            ]
+        }
+    },
+    "symbolRule": {
+        "spaceX": 0,
+        "spaceY": -100,
+        "richTextSpaceX": 0,
+        "richTextSpaceY": 50,
+        "title": {},
+        "rowMaxNum": 1,
+        "position": "TOP_CENTER",
+        "dividingLine": true,
+        "dividingLineSpace": 100,
+        "richTextBox": [
+            {   
+                "rectRange": {
+                    "width": 400,
+                    "height": 445
+                },
+                "titles": {
+                    "style": {
+                        "font": "60px  '微软雅黑' ",
+                        "fill": "#ffbe06",
+                        "align": "center",
+                        "boundsAlignH": "center",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1920,
+                        "fontWeight": "bold",
+                        "lineSpacing": 0
+                    },
+                    "txt": "百搭",
+                    "direction": "TOP_CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "images": {
+                    "key":"symbol",
+                    "frame":"img_symbol_W.png",
+                    "direction": "CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "contents": {
+                    "rectAlign": "TO", 
+                    "offsetX": 250,
+                    "offsetY": -120,
+                    "txtSpacing": 8,
+                    "direction": "RIGHT_TOP",
+                    "style": {
+                        "font": "30px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1000,
+                        "fontWeight": "normal",
+                        "lineSpacing": 20
+                    },
+                    "txt": [ 
+                        "● [W]可替代除了[F]以外的任意图标来得到连线分数，并且只出现在1, 5滚轮上。", 
+                        "◎ YOYOYO!! "
+                    ]
+                },
+                "rewardTable": {
+                    "rectAlign": "TO", 
+                    "offsetX": -20,
+                    "offsetY": 0,
+                    "direction": "RIGHT_CENTER",
+                    "dash": "-",
+                    "spaceStr": " ",
+                    "txtSpace": 5,
+                    "keyColor": "#ffba00",
+                    "valueColor": "#ffffff",
+                    "style": {
+                        "font": "40px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "fontWeight": "bold",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1920
+                    },
+                    "symbolID": "W",
+                    "iaOdds": [0, 5, 25, 250, 2500],
+                    "isMultiplier": false
+                }
+            },
+            {   
+                "rectRange": {
+                    "width": 400,
+                    "height": 445
+                },
+                "titles": {
+                    "style": {
+                        "font": "60px  '微软雅黑' ",
+                        "fill": "#ffbe06",
+                        "align": "center",
+                        "boundsAlignH": "center",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1920,
+                        "fontWeight": "bold",
+                        "lineSpacing": 0
+                    },
+                    "txt": "免费游戏",
+                    "direction": "TOP_CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "images": {
+                    "key":"symbol",
+                    "frame":"img_symbol_F.png",
+                    "direction": "CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "contents": {
+                    "rectAlign": "TO", 
+                    "offsetX": 250,
+                    "offsetY": 10,
+                    "txtSpacing": 8,
+                    "direction": "RIGHT_CENTER",
+                    "style": {
+                        "font": "30px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1000,
+                        "fontWeight": "normal",
+                        "lineSpacing": 20
+                    },
+                    "txt": [ 
+                        "● 滚轮上任意位置出现3、4或5个，即可获得12场免费游戏，与 2、10或50倍总压注得分。" , 
+                        "● Hiiii"
+                    ]
+                },
+                "rewardTable": {
+                    "rectAlign": "TO", 
+                    "offsetX": -20,
+                    "offsetY": 0,
+                    "direction": "RIGHT_CENTER",
+                    "dash": "-",
+                    "spaceStr": " ",
+                    "txtSpace": 5,
+                    "keyColor": "#ffba00",
+                    "valueColor": "#ffffff",
+                    "style": {
+                        "font": "40px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "fontWeight": "bold",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1920
+                    },
+                    "symbolID": "F",
+                    "iaOdds": [0, 0, 2, 5, 500],
+                    "isMultiplier": true
+                }
+            }
+        ]
+    },
+    "featureRule": [
+    {
+        "spaceX": 0,
+        "spaceY": -50,
+        "richTextSpaceX": 0,
+        "richTextSpaceY": -100,
+        "title": {},
+        "rowMaxNum": 1,
+        "position": "CENTER",
+        "richTextBox": [
+            {   
+                "rectRange": {
+                    "width": 400,
+                    "height": 120
+                },
+                "titles": {
+                    "style": {
+                        "font": "60px  '微软雅黑' ",
+                        "fill": "#ffbe06",
+                        "align": "center",
+                        "boundsAlignH": "center",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1920,
+                        "fontWeight": "bold",
+                        "lineSpacing": 0
+                    },
+                    "txt": "免费游戏特色",
+                    "direction": "TOP_CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "images": {},
+                "contents": {
+                    "rectAlign": "TO", 
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "txtSpacing": 8,
+                    "direction": "BOTTOM_CENTER",
+                    "style": {
+                        "font": "30px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1500,
+                        "fontWeight": "normal",
+                        "lineSpacing": 20
+                    },
+                    "txt": [ 
+                        "● 免费游戏中，[H1]只出现在第1滚轮，且在下一场次开始前会转换为[H1W]。", 
+                        "● [H1W]会随着每一场次向右移动，在第5滚轮上的[H1W]则会移动至第1滚轮。 "
+                    ]
+                }
+            },
+            {   
+                "rectRange": {
+                    "width": 400,
+                    "height": 120
+                },
+                "titles": {
+                    "style": {
+                        "font": "60px  '微软雅黑' ",
+                        "fill": "#ffbe06",
+                        "align": "center",
+                        "boundsAlignH": "center",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1920,
+                        "fontWeight": "bold",
+                        "lineSpacing": 0
+                    },
+                    "txt": "再获奖规则",
+                    "direction": "TOP_CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "images": {},
+                "contents": {
+                    "rectAlign": "TO", 
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "txtSpacing": 8,
+                    "direction": "BOTTOM_CENTER",
+                    "style": {
+                        "font": "30px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1500,
+                        "fontWeight": "normal",
+                        "lineSpacing": 20
+                    },
+                    "txt": [ 
+                        "● 第2, 3, 4滚轮上任意位置出现3个[F1]，玩家即可再次获得5场免费\n游戏，与2倍总押注得分。玩家可多次获得免费游戏。", 
+                        "● [F1]只出现于免费游戏中。",
+                        "● 免费游戏最多场次为50场。",
+                        "● 免费游戏中，押注倍数与触发免费游戏奖励时相同。"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "spaceX": 0,
+        "spaceY": -200,
+        "title": {
+            "offsetX": 0,
+            "offsetY": -50,
+            "txt": "免費遊戲特色",
+            "style": {
+                "font": "60px  '微软雅黑' ",
+                "fill": "#ffba00",
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "top",
+                "wordWrap": true,
+                "wordWrapWidth": 1920,
+                "fontWeight": "bold",
+                "lineSpacing": 0
+            }
+        },
+        "rowMaxNum": 2,
+        "position": "TOP_CENTER",
+        "dividingLine": true,
+        "dividingLineSpace": 100,
+        "richTextBox": [
+            {   
+                "rectRange": {
+                    "width": 400,
+                    "height": 445
+                },
+                "titles": {
+                    "style": {
+                        "font": "40px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1000,
+                        "fontWeight": "normal",
+                        "lineSpacing": 20
+                    },
+                    "txt": "特色選項為兩種不同免費遊戲類型：",
+                    "direction": "TOP_CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "images": {
+                    "key":"symbol",
+                    "frame":"img_symbol_W.png",
+                    "direction": "CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "contents": {
+                    "rectAlign": "TO", 
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "txtSpacing": 8,
+                    "direction": "BOTTOM_CENTER",
+                    "style": {
+                        "font": "30px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1000,
+                        "fontWeight": "normal",
+                        "lineSpacing": 20
+                    },
+                    "txt": [ 
+                        " 1, 5 滾輪為滿滾輪 Wild，Wild 只出現在第 1, 5 滾輪。"
+                    ]
+                },
+                "rewardTable": {
+                }
+            },
+            {   
+                "rectRange": {
+                    "width": 400,
+                    "height": 445
+                },
+                "titles": {},
+                "images": {
+                    "key":"symbol",
+                    "frame":"img_symbol_F.png",
+                    "direction": "CENTER",
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "rectAlign": "IN"
+                },
+                "contents": {
+                    "rectAlign": "TO", 
+                    "offsetX": 0,
+                    "offsetY": 0,
+                    "txtSpacing": 8,
+                    "direction": "BOTTOM_CENTER",
+                    "style": {
+                        "font": "30px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1000,
+                        "fontWeight": "normal",
+                        "lineSpacing": 20
+                    },
+                    "txt": [ 
+                        "每次旋轉時隨機選兩個滾輪為滿滾輪 Wild，Wild 只出現在這兩個被選擇的滾輪。"
+                    ]
+                },
+                "rewardTable": {}
+            },
+            {   
+                "rectRange": {
+                    "width": 400,
+                    "height": 0
+                },
+                "titles": {},
+                "images": {},
+                "contents": {
+                    "rectAlign": "TO", 
+                    "offsetX": 100,
+                    "offsetY": 50,
+                    "txtSpacing": 8,
+                    "direction": "BOTTOM_LEFT",
+                    "style": {
+                        "font": "30px  '微软雅黑' ",
+                        "fill": "#ffffff",
+                        "align": "left",
+                        "boundsAlignH": "left",
+                        "boundsAlignV": "top",
+                        "wordWrap": true,
+                        "wordWrapWidth": 1000,
+                        "fontWeight": "normal",
+                        "lineSpacing": 20
+                    },
+                    "txt": [ 
+                        "● 免費遊戲中，押注倍數與觸發免費遊戲獎勵時相同。" , 
+                        "● 免費遊戲無法再次獲獎。"
+                    ]
+                },
+                "rewardTable": {}
+            }
+        ]
+    }],
+    "gameTypeRule": {
+        "title": {
+            "txt": "243路",
+            "offsetY": -10,
+            "style": {
+                "font": "100px  '微软雅黑' ",
+                "fill": "#ffba00",
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "top",
+                "wordWrap": true,
+                "wordWrapWidth": 1920,
+                "fontWeight": "bold",
+                "lineSpacing": 0
+            }
+        },
+        "content": {
+            "txt": "滚轮上由最左至右连续出现三个以上的相同图标，即可获得该图标的得分奖励！",
+            "offsetY": -200,
+            "scale": 0.7,
+            "style": {
+                "font": "50px  '微软雅黑' ",
+                "fill": "#ffffff",
+                "align": "center",
+                "boundsAlignH": "center",
+                "boundsAlignV": "top",
+                "wordWrap": true,
+                "wordWrapWidth": 1920,
+                "fontWeight": "normal",
+                "lineSpacing": 0
+            },
+            "paylineTable": {
+                "path": [
+                    [ 1, 1, 1, 1, 1 ], [ 0, 0, 0, 0, 0 ], [ 2, 2, 2, 2, 2 ], [ 0, 1, 2, 1, 0 ],
+                    [ 2, 1, 0, 1, 2 ], [ 0, 0, 1, 2, 2 ], [ 2, 2, 1, 0, 0 ], [ 1, 0, 1, 2, 1 ],
+                    [ 1, 2, 1, 0, 1 ], [ 0, 1, 1, 1, 2 ], [ 2, 1, 1, 1, 0 ], [ 1, 0, 0, 1, 2 ],
+                    [ 1, 2, 2, 1, 0 ], [ 1, 1, 0, 1, 2 ], [ 1, 1, 2, 1, 0 ], [ 0, 0, 1, 2, 1 ],
+                    [ 2, 2, 1, 0, 1 ], [ 1, 0, 1, 2, 2 ], [ 1, 2, 1, 0, 0 ], [ 0, 0, 0, 1, 2 ],
+                    [ 2, 2, 2, 1, 0 ], [ 2, 1, 0, 0, 0 ], [ 0, 1, 2, 2, 2 ], [ 0, 1, 2, 1, 2 ],
+                    [ 2, 1, 0, 1, 0 ], [ 1, 1, 0, 1, 1 ], [ 1, 1, 2, 1, 1 ], [ 1, 0, 1, 0, 1 ],
+                    [ 1, 2, 1, 2, 1 ], [ 1, 0, 0, 0, 1 ]
+                ],
+                "mapSpaceX": null,
+                "mapSpaceY": null,
+                "rowNumMax": 10,
+                "src":"paylineTableMap",
+                "scale": 1,
+                "offsetY": 50,
+                "titleStyle": {
+                    "font": "50px  '微软雅黑'",
+                    "fill": "#ffffff",
+                    "align": "left",
+                    "boundsAlignH": "left",
+                    "boundsAlignV": "top",
+                    "wordWrap": true,
+                    "fontWeight": "bold",
+                    "wordWrapWidth": 1920
+                }
+            }
+        }
+    }
+}

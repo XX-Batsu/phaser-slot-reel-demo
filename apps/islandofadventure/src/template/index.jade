@@ -1,0 +1,27 @@
+doctype html
+//- html(lang="en" data-rev=htmlWebpackPlugin.options.rev data-tag=htmlWebpackPlugin.options.tag, data-baseVer=htmlWebpackPlugin.options.baseVer, data-commonVer=htmlWebpackPlugin.options.commonVer)
+html()
+head
+  head
+    meta(charset="utf-8")
+    title IslandOfAdventure
+    //- link(rel="shortcut icon" href=htmlWebpackPlugin.options.commonFilePath + "/images/favicon.ico?yolo")
+    link(rel="stylesheet" href=htmlWebpackPlugin.options.commonFilePath + "/css/style.css?yolo")
+    meta(name="viewport" content="width=device-width,height=device-height,initial-scale=0.5,maximum-scale=0.5,user-scalable=no")
+    meta(content="yes" name="apple-mobile-web-app-capable")
+    meta(content="yes" name="apple-touch-fullscreen")
+    meta(content="black" name="apple-mobile-web-app-status-bar-style")
+    meta(content="telephone=no" name="format-detection")
+    ver(tag-base=htmlWebpackPlugin.options.baseVer, tag-external=htmlWebpackPlugin.options.commonVer tag-game=htmlWebpackPlugin.options.tag time=htmlWebpackPlugin.options.rev)
+  body
+    div#game.game
+    script(src=htmlWebpackPlugin.options.commonFilePath + "/js/Phaser.js?yolo")
+    script(src=htmlWebpackPlugin.options.commonFilePath + "/js/pako.min.js?yolo")
+    script(src=htmlWebpackPlugin.options.commonFilePath + "/js/screenfull.min.js?yolo")
+    script(src=htmlWebpackPlugin.options.commonFilePath + "/js/axios.min.js?yolo")
+    script(src=htmlWebpackPlugin.options.commonFilePath + "/js/ParticleEditorPlugin.js?yolo")
+    script(src=htmlWebpackPlugin.options.commonFilePath + "/js/TimelineMax.min.js?yolo")
+    script(src=htmlWebpackPlugin.options.commonFilePath + "/js/TweenLite.min.js?yolo")
+    script(src=htmlWebpackPlugin.options.commonFilePath + "/js/EasePack.min.js?yolo")
+    script(src=htmlWebpackPlugin.options.commonFilePath + "/js/CustomEase.min.js?yolo")
+    script(src=htmlWebpackPlugin.options.commonFilePath + "/js/Photon-Javascript_SDK.min.js?yolo")

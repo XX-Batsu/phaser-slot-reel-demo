@@ -1,0 +1,243 @@
+{
+    "sound": {
+        "baseGame": {
+        },
+        "award": {
+        },
+        "common": {
+            "btnBase": { "loop": false, "root": "commonFile", "path": "audios/UI_btn_base", "type": "effect", "volume": 1 },
+            "btnConfirm": { "loop": false, "root": "commonFile", "path": "audios/UI_btn_confirm", "type": "effect", "volume": 1 },
+            "btnNegative": { "loop": false, "root": "commonFile", "path": "audios/UI_btn_denied", "type": "effect", "volume": 1 },
+            "btnTakeWin": { "loop": false, "root": "commonFile", "path": "audios/UI_takeWin", "type": "effect", "volume": 1 },
+            "btnCalculator": { "loop": false, "root": "commonFile", "path": "audios/UI_btn_calculator", "type": "effect", "volume": 1 },
+            "btnClear": { "loop": false, "root": "commonFile", "path": "audios/UI_btn_clear", "type": "effect", "volume": 1 },
+            "btnSpin": { "loop": false, "root": "commonFile", "path": "audios/UI_Spin", "type": "effect" },
+            "speedUp": { "loop": false, "root": "commonFile", "path": "audios/UI_Listen", "type": "music", "volume": 1 },
+            "cashout": { "loop": false, "root": "commonFile", "path": "audios/UI_cashout", "type": "effect", "volume": 1 }
+        },
+        "freeGame": {
+        },
+        "feature": {
+        }
+    },
+    "images": {
+        "loading": {
+            "loadingBg": { "type": "image", "root": "loading", "path": "", "file": "loading_bg", "ext": "jpg" },
+            "loadingText": { "type": "image", "root": "i18n", "path": "{lang}", "file": "text_loading", "ext": "png" },
+            "loadingLogo": { "type": "image", "root": "i18n", "path": "{lang}", "file": "loading_logo", "ext": "png" },
+            "loadingBarBoard1": { "type": "image", "root": "loading", "path": "", "file": "loading_bar_board01", "ext": "png" },
+            "loadingBarLine": { "type": "image", "root": "loading", "path": "", "file": "loading_bar_line", "ext": "png" },
+            "loadingLeaf1": { "type": "image", "root": "loading", "path": "", "file": "loading_bg_leaf1", "ext": "png" },
+            "loadingLeaf2": { "type": "image", "root": "loading", "path": "", "file": "loading_bg_leaf2", "ext": "png" }
+        },
+        "symbols": {
+            "symbol": { "type": "atlas", "root": "base", "path": "elements", "file": "symbol", "ext": "png" },
+            "clip_W1": { "type": "atlas", "root": "animation", "path": "symbol", "file": "clip_W1", "ext": "png" },
+            "clip_M1": { "type": "atlas", "root": "animation", "path": "symbol", "file": "clip_M1", "ext": "png" },
+            "clip_M2": { "type": "atlas", "root": "animation", "path": "symbol", "file": "clip_M2", "ext": "png" },
+            "clip_M3": { "type": "atlas", "root": "animation", "path": "symbol", "file": "clip_M3", "ext": "png" },
+            "clip_M4": { "type": "atlas", "root": "animation", "path": "symbol", "file": "clip_M4", "ext": "png" },
+            "clip_M5": { "type": "atlas", "root": "animation", "path": "symbol", "file": "clip_M5", "ext": "png" },
+            "clip_N1": { "type": "atlas", "root": "animation", "path": "symbol", "file": "clip_N1", "ext": "png" },
+            "clip_N2": { "type": "atlas", "root": "animation", "path": "symbol", "file": "clip_N2", "ext": "png" },
+            "clip_N3": { "type": "atlas", "root": "animation", "path": "symbol", "file": "clip_N3", "ext": "png" },
+            "clip_N4": { "type": "atlas", "root": "animation", "path": "symbol", "file": "clip_N4", "ext": "png" }
+        },
+        "slowEffects": {
+            "slowEffectSide": { "type": "atlas", "root": "base", "path": "effect", "file": "slowEffectSide", "ext": "png" }
+        },
+        "lang": {
+            "baseLogo": { "type": "image", "root": "i18n", "path": "{lang}", "file": "board_title_logo", "ext": "png" }
+        },
+        "font": {
+            "num_winscore": { "type": "bitmap", "root": "font", "path": "number", "file": "num_win", "ext": "png"},
+            "num_bigwin": { "type": "bitmap", "root": "font", "path": "number", "file": "num_win", "ext": "png"},
+            "num_base": { "type": "bitmap", "root": "commonFile", "path": "images/font", "file": "number_auto", "ext": "png"},
+            "num_light": { "type": "bitmap", "root": "commonFile", "path": "images/font", "file": "number_auto_light", "ext": "png"}
+        },
+        "bigwin": {
+            "particleCoin": { "type": "atlas", "root": "base", "path": "effect", "file": "particleCoin", "ext": "png" },
+            "bigwinBgLight1": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_bg_ligth_1", "ext": "png" },
+            "bigwinBgLight2": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_bg_ligth_2", "ext": "png" },
+            "bigwinText_big_1": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_big_1", "ext": "png" },
+            "bigwinText_big_2": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_big_2", "ext": "png" },
+            "bigwinText_big_3": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_big_3", "ext": "png" },
+            "bigwinText_big_4": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_big_4", "ext": "png" },
+            "bigwinText_big_5": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_big_5", "ext": "png" },
+            "bigwinText_big_6": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_big_6", "ext": "png" },
+            "bigwinText_super_1": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_super_1", "ext": "png" },
+            "bigwinText_super_2": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_super_2", "ext": "png" },
+            "bigwinText_super_3": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_super_3", "ext": "png" },
+            "bigwinText_super_4": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_super_4", "ext": "png" },
+            "bigwinText_super_5": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_super_5", "ext": "png" },
+            "bigwinText_super_6": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_super_6", "ext": "png" },
+            "bigwinText_super_7": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_super_7", "ext": "png" },
+            "bigwinText_super_8": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_super_8", "ext": "png" },
+            "bigwinText_mega_1": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_mega_1", "ext": "png" },
+            "bigwinText_mega_2": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_mega_2", "ext": "png" },
+            "bigwinText_mega_3": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_mega_3", "ext": "png" },
+            "bigwinText_mega_4": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_mega_4", "ext": "png" },
+            "bigwinText_mega_5": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_mega_5", "ext": "png" },
+            "bigwinText_mega_6": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_mega_6", "ext": "png" },
+            "bigwinText_mega_7": { "type": "image", "root": "base", "path": "elements", "file": "bigwin_mega_7", "ext": "png" },
+            "clip_bigwin_particle": { "type": "atlas", "root": "base", "path": "elements", "file": "clip_particleEffect", "ext": "png" },
+            "clip_bigwin_smoke": { "type": "atlas", "root": "base", "path": "elements", "file": "clip_smokeEffect", "ext": "png" }
+        },
+        "baseGame": {
+            "moaiLeft1st": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_l_hit_1stStart", "ext": "png" },
+            "moaiLeft2ndLoop": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_l_hit_2ndLoop", "ext": "png" },
+            "moaiLeft3rdTurn": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_l_hit_3rdTurn", "ext": "png" },
+            "moaiLeft4thLoop": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_l_hit_4thLoop", "ext": "png" },
+            "moaiLeft5thEnd": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_l_hit_5thEnd", "ext": "png" },
+            "moaiLeftIdle": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_l_idle", "ext": "png" },
+            "moaiLeftSpit": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_l_spit", "ext": "png" },
+            "moaiLeftSwallow": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_l_swallow", "ext": "png" },
+            "moaiRight1st": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_r_hit_1stStart", "ext": "png" },
+            "moaiRight2ndLoop": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_r_hit_2ndLoop", "ext": "png" },
+            "moaiRight3rdTurn": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_r_hit_3rdTurn", "ext": "png" },
+            "moaiRight4thLoop": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_r_hit_4thLoop", "ext": "png" },
+            "moaiRight5thEnd": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_r_hit_5thEnd", "ext": "png" },
+            "moaiRightIdle": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_r_idle", "ext": "png" },
+            "moaiRightSpit": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_r_spit", "ext": "png" },
+            "moaiRightSwallow": { "type": "atlas", "root": "animation", "path": "characters", "file": "clip_moai_r_swallow", "ext": "png" },
+            "respinSignBright_1": { "type": "atlas", "root": "base", "path": "effect", "file": "clip_respinSign_bright_1", "ext": "png" },
+            "respinSignBright_2": { "type": "atlas", "root": "base", "path": "effect", "file": "clip_respinSign_bright_2", "ext": "png" },
+            "respinSignBright_3": { "type": "atlas", "root": "base", "path": "effect", "file": "clip_respinSign_bright_3", "ext": "png" },
+            "respinSignDark_1": { "type": "atlas", "root": "base", "path": "effect", "file": "clip_respinSign_dark_1", "ext": "png" },
+            "respinSignDark_2": { "type": "atlas", "root": "base", "path": "effect", "file": "clip_respinSign_dark_2", "ext": "png" },
+            "respinSignDark_3": { "type": "atlas", "root": "base", "path": "effect", "file": "clip_respinSign_dark_3", "ext": "png" }
+        },
+        "freeGame": {
+        },
+        "bonusGame": {
+        },
+        "background": {
+            "bgBase": { "type": "image", "root": "base", "path": "bg", "file": "bg_base", "ext": "jpg" },
+            "reelBaseBg": { "type": "image", "root": "base", "path": "bg", "file": "base_reelBase", "ext": "png" },
+            "bgGrass": { "type": "image", "root": "base", "path": "bg", "file": "bg_grass", "ext": "png" },
+            "bgGrassLeft": { "type": "image", "root": "base", "path": "bg", "file": "bg_grass_left", "ext": "png" },
+            "bgGrassRight": { "type": "image", "root": "base", "path": "bg", "file": "bg_grass_right", "ext": "png" },
+            "bgLeafLeft": { "type": "image", "root": "base", "path": "bg", "file": "bg_leaf_left", "ext": "png" },
+            "bgLeafRight": { "type": "image", "root": "base", "path": "bg", "file": "bg_leaf_right", "ext": "png" }
+        },
+        "UI": {
+            "uiButton": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButton", "ext": "png" },
+            "uiButtonSpin": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonSpin", "ext": "png" },
+            "uiButtonStop": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonStop", "ext": "png" },
+            "uiButtonTakeWin": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonTakeWin", "ext": "png" },
+            "uiButtonAutoStop": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonAutoStop", "ext": "png" },
+            "uiButtonAutoNum": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonAutoNum", "ext": "png" },
+            "uiButtonMenu": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonMenu", "ext": "png" },
+            "uiButtonMenuOptions": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonMenuOptions", "ext": "png" },
+            "uiButtonMenuExchange": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonMenuExchange", "ext": "png" },
+            "uiButtonMenuHelp": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonMenuHelp", "ext": "png" },
+            "uiButtonMenuExit": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonMenuExit", "ext": "png" },
+            "uiButtonMenuRecords": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonMenuRecords", "ext": "png" },
+            "uiButtonMenuSetting": { "type": "atlas", "root": "commonFile", "path": "images/UI", "file": "baseButtonMenuSetting", "ext": "png" },
+            "CBW_Bar": { "type": "image", "root": "base", "path": "elements", "file": "cbw_bar", "ext": "png" }
+        },
+        "system": {
+            "systemElements": { "type": "atlas", "root": "commonFile", "path": "images/system", "file": "system_elements", "ext": "png" },
+            "systemTexts": { "type": "atlas", "root": "commonFile", "path": "images/system/i18n/{lang}", "file": "system_text", "ext": "png" },
+            "exchangeElements": { "type": "atlas", "root": "commonFile", "path": "images/system/exchange", "file": "exchange_elements", "ext": "png" },
+            "exchangeTexts": { "type": "atlas", "root": "commonFile", "path": "images/system/exchange/i18n/{lang}", "file": "exchange_text", "ext": "png" },
+            "cashoutTexts": { "type": "atlas", "root": "commonFile", "path": "images/system/cashout/i18n/{lang}", "file": "cashout_text", "ext": "png" },
+            "messageTexts": { "type": "atlas", "root": "commonFile", "path": "images/system/message/i18n/{lang}", "file": "message_text", "ext": "png" },
+            "settingElements": { "type": "atlas", "root": "commonFile", "path": "images/system/setting", "file": "setting_elements", "ext": "png" },
+            "settingTexts": { "type": "atlas", "root": "commonFile", "path": "images/system/setting/i18n/{lang}", "file": "setting_text", "ext": "png" },
+            "helpTexts": { "type": "atlas", "root": "commonFile", "path": "images/system/help/i18n/{lang}", "file": "help_text", "ext": "png" }
+        },
+        "help": {
+            "HelpPage1": { "type": "image", "root": "i18n", "path": "{lang}", "file": "img_help_01", "ext": "png" }
+        }
+    },
+    "position": {
+        "mobileUI": {},
+        "help": {
+            "arrowXdistance": 0,
+            "arrowYdistance": 0,
+            "return": { "x": 1760, "y": 80 }
+        }
+    },
+    "line": [
+        "0xff0000", "0x001eff", "0xfff000", "0x00ff37", "0xff00ff", "0x5000ff", "0xff6400", "0x0096ff", "0x326400", "0xcc9933",
+        "0xff6666", "0x6666ff", "0xffff66", "0x66ff66", "0xff66ff", "0x9966ff", "0xff9966", "0x66ccff", "0x336633", "0xffcc33",
+        "0xffcccc", "0x9999ff", "0xffffcc", "0x99ff66", "0xff99ff", "0x9966cc", "0xffcc99", "0x66ffff", "0x669964", "0x99CC33",
+        "0x993333", "0x333399", "0x999933", "0x339933", "0x99339c", "0x663399", "0x996633", "0x339999", "0x006600", "0x663300",
+        "0x681414", "0x212158", "0x644e0d", "0x05472d", "0x710d71", "0x421b69", "0x603e1b", "0x116666", "0x0f5a0e", "0x5c3d00",
+        "0xba2424", "0x3349f3", "0x3e4500", "0x295c48", "0x663366", "0x49345e", "0x4b3a28", "0x204545", "0x305e35", "0x805500"
+    ],
+    "settings": {
+        "STEP_RATIO": [ 50, 200, 500 ],
+        "AWARD_IMG_Y_OFFSET": -80,
+        "AWARD_SCORE_Y_OFFSET": -20,
+        "AWARD_BG_SHOW": true,
+        "AWARD_BG_SCALE": 2,
+        "AWARD_BG_TWEEN": false,
+        "AWARD_OVERLAY_COLOR": "0x000000",
+        "AWARD_OVERLAY_ALPHA": 0.6,
+        "AWARD_STEP_OFFSET": -10,
+        "FIRST_ROLL_SYMBOL_COUNT": 6,
+        "DIFF_PASS_COUNT_EACH_REEL": 6,
+        "ROLLING_SYMBOL": 15,
+        "ROLLING_SYMBOL_COUNT": 3,
+        "EMG_ROLLING_SYMBOL": 0,
+        "SLOW_ROLLING_SYMBOL": 7,
+        "SLOW_ROLLING_PASS_COUNT": 18,
+        "SLOW_EMG_ROLLING_PASS_COUNT": 12,
+        "DAMPING_SYMBOL_CONUT": 4,
+        "DAMPING_DISTANCE": 40,
+        "BUFFER_SPEED_STEP": 5,
+        "DAMPING_UP": 0.3,
+        "SLOW_EMG_STOP_SEC": 1.4,
+        "EMG_STOP_SEC": 0.33,
+        "RESULT_EMG_STOP_SEC": 0.3,
+        "RESPIN_MODE": 0,
+        "SINGLE_LINE_SEC": 2,
+        "ALL_LINE_SEC": 3,
+        "FREE_LINE_SEC": 2,
+        "IS_SCA_SHOW_LINE": false,
+        "IS_SCA_SHOW_BORDER": true,
+        "SCA_SHOWALL_BORDER_MODE": 0,
+        "IS_SYMBOL_MASK": true,
+        "IS_SYMBOL_TWEENING": true,
+        "IS_SHOW_WIN_SHINE": false,
+        "SHOW_ALL_WIN_LINE": true,
+        "HIT_SCATTER_SHOW_SCORE": 2,
+        "FREE_ADDSOCRE_SCATTER_WIN": true,
+        "TEXT_WIN_RUNSCORE_MODE": 0,
+        "TEXT_WIN_RUNSCORE_STEP": false,
+        "IS_GAMEING_HELP_OPEN": false,
+        "WIN_PRIZE_SHOW_MODE": 3,
+        "IS_FREE_CONGRATS_MODE": 0,
+        "IS_FREE_SPINSOUND_PLAY": true,
+        "TRANSITIONS_EFFECT_SEC": 1,
+        "HELP_PAGE_NUM": 1,
+        "ANIMATION_SYMBOL": [ "W1", "M1", "M2", "M3", "M4", "M5", "N1", "N2", "N3", "N4" ],
+        "ANIMATION_SYMBOL_FPS": {
+            "W1": 17,
+            "M1": 16,
+            "M2": 16,
+            "M3": 16,
+            "M4": 16,
+            "M5": 16,
+            "N1": 9,
+            "N2": 9,
+            "N3": 9,
+            "N4": 9
+        },
+        "SOUND_SYMBOL": [],
+        "SYMBOL_ID_NUM": {
+            "0": "W1",
+            "1": "M1",
+            "2": "M2",
+            "3": "M3",
+            "4": "M4",
+            "5": "M5",
+            "6": "N1",
+            "7": "N2",
+            "8": "N3",
+            "9": "N4"
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "extends": "l3e-base",
+    "env": {
+        "jest": true
+    }
+}

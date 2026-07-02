@@ -1,0 +1,92 @@
+{"frames": {
+
+"moai_r_hit_1stStart_1.png":
+{
+	"frame": {"x":0,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_hit_1stStart_2.png":
+{
+	"frame": {"x":286,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_hit_1stStart_3.png":
+{
+	"frame": {"x":572,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_hit_1stStart_4.png":
+{
+	"frame": {"x":858,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_hit_1stStart_5.png":
+{
+	"frame": {"x":1144,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_hit_1stStart_6.png":
+{
+	"frame": {"x":1430,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_hit_1stStart_7.png":
+{
+	"frame": {"x":1716,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_hit_1stStart_8.png":
+{
+	"frame": {"x":2002,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_hit_1stStart_9.png":
+{
+	"frame": {"x":2288,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+},
+"moai_r_hit_1stStart_10.png":
+{
+	"frame": {"x":2574,"y":0,"w":286,"h":410},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":286,"h":410},
+	"sourceSize": {"w":286,"h":410}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "clip_moai_r_hit_1stStart.png",
+	"format": "RGBA8888",
+	"size": {"w":2860,"h":410},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:34d05a9683da83e74314b9bff4e84ce5:7ae44f809d951affb33a1013f37b276a:c6fb26d188a3595402111a1d143c2cab$"
+}
+}

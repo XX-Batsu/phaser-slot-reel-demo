@@ -1,0 +1,132 @@
+{"frames": {
+
+"moai_l_hit_2ndLoop_1.png":
+{
+	"frame": {"x":0,"y":0,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_2.png":
+{
+	"frame": {"x":282,"y":0,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_3.png":
+{
+	"frame": {"x":564,"y":0,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_4.png":
+{
+	"frame": {"x":0,"y":380,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_5.png":
+{
+	"frame": {"x":282,"y":380,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_6.png":
+{
+	"frame": {"x":564,"y":380,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_7.png":
+{
+	"frame": {"x":0,"y":760,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_8.png":
+{
+	"frame": {"x":282,"y":760,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_9.png":
+{
+	"frame": {"x":564,"y":760,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_10.png":
+{
+	"frame": {"x":0,"y":1140,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_11.png":
+{
+	"frame": {"x":282,"y":1140,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_12.png":
+{
+	"frame": {"x":564,"y":1140,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_13.png":
+{
+	"frame": {"x":0,"y":1520,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_14.png":
+{
+	"frame": {"x":282,"y":1520,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+},
+"moai_l_hit_2ndLoop_15.png":
+{
+	"frame": {"x":564,"y":1520,"w":282,"h":380},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":282,"h":380},
+	"sourceSize": {"w":282,"h":380}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "clip_moai_l_hit_2ndLoop.png",
+	"format": "RGBA8888",
+	"size": {"w":846,"h":1900},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:48e1dc3a843008c17df03e5d5e5794af:538cbfb3e284737c78166394c77946fa:dcfa552dd6a931e60da25be70452c4ba$"
+}
+}
