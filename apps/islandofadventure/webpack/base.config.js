@@ -19,7 +19,7 @@ const nodeModules = (isDevBase) ? /node_modules\/(?!(slot-base\/src)\/).*/ : /no
 const ver = (isDevelopment) ? 'dev' : git.short()
 const commonFilePath = (isDevelopment)
   ? path.join('..', 'node_modules', 'GameExternal')
-  : path.join('..', 'GameExternal')
+  : 'GameExternal'
 const gameImagePath = (isDevelopment)
   ? path.join('..', 'src', 'assets/images')
   : path.join('.', 'assets/images')
