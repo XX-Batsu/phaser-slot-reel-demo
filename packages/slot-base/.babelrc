@@ -1,0 +1,10 @@
+{
+  "presets": ["latest"],
+  "plugins": [
+      "add-module-exports",
+      "lodash",
+      ["module-resolver", {
+        "root": ["./src", "./node_modules/slot-base/src", "./node_modules/slot-base/lib"]
+    }]
+  ],
+}

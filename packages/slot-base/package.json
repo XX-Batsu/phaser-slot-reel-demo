@@ -1,0 +1,36 @@
+{
+  "name": "slot-base",
+  "version": "v0.1.2",
+  "description": "The base of slot games.",
+  "main": "lib/index.js",
+  "scripts": {
+    "init": "yarn; yarn link;",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src",
+    "build": "rm -rf lib && babel src --presets latest -d lib",
+    "reinstall": "rm -rf node_modules; rm yarn.lock; yarn cache clean; yarn"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "slot"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "3.1.8",
+    "lodash": "4.17.2"
+  },
+  "devDependencies": {
+    "babel": "6.5.2",
+    "babel-cli": "6.18.0",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-plugin-lodash": "3.2.10",
+    "babel-plugin-module-resolver": "2.4.0",
+    "babel-preset-latest": "6.16.0",
+    "eslint": "3.11.1",
+    "eslint-config-l3e-base": "1.2.2",
+    "eslint-import-resolver-babel-module": "2.2.1"
+  }
+}

@@ -1,0 +1,82 @@
+{
+    "extends": "l3e-base",
+    "env": {
+        "jest": true
+    },
+    "rules": {
+        "global-require": 0,
+        "newline-after-import": 0,
+        "consistent-return": 1,
+        "no-empty-function": 1,
+        "no-unused-vars": 1,
+        "no-new": 0,
+        "max-len": 0,
+        "max-lines": 0,
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "semi": ["error", "always"],
+        "line-comment-position": 0,
+        "class-methods-use-this": 0,
+        "no-await-in-loop": 0,
+        "require-await": 0,
+        "no-unused-expressions": ["error", { "allowTernary": true }],
+        "line-comment-position": 0,
+        "no-bitwise": ["error", {"int32Hint": true}],
+        "no-mixed-operators": ["error", {
+            "groups": [
+                ["&", "|", "^", "~", "<<", ">>", ">>>"],
+                ["&&", "||"]
+            ],
+            "allowSamePrecedence": true
+        }],
+        "no-fallthrough": 1,
+        "no-continue": 0,
+        "no-prototype-builtins": 0
+    },
+    "globals": {
+        "spine": true,
+        "Photon": true,
+        "Phaser": true,
+        "Creature": true,
+        "CreatureAnimation": true,
+        "TimelineLite" : true,
+        "TimelineMax" : true,
+        "TweenLite" : true,
+        "TweenMax" : true,
+        "Back" : true,
+        "Bounce" : true,
+        "Circ" : true,
+        "Cubic" : true,
+        "Ease" : true,
+        "EaseLookup" : true,
+        "Elastic" : true,
+        "Expo" : true,
+        "Linear" : true,
+        "Power0" : true,
+        "Power1" : true,
+        "Power2" : true,
+        "Power3" : true,
+        "Power3" : true,
+        "Power4" : true,
+        "Quad" : true,
+        "Quart" : true,
+        "Quint" : true,
+        "RoughEase" : true,
+        "Sine" : true,
+        "SlowMo" : true,
+        "SteppedEase" : true,
+        "Strong" : true,
+        "Draggable" : true,
+        "SplitText" : true,
+        "VelocityTracker" : true,
+        "CSSPlugin" : true,
+        "ThrowPropsPlugin" : true,
+        "BezierPlugin" : true,
+        "axios" : true,
+        "AgentInitial": true
+    },
+    "settings": {
+        "import/resolver": {
+            "babel-module": {}
+        }
+    }
+}

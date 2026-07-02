@@ -1,0 +1,56 @@
+class MainStatesConfig {}
+// # Base Game
+// 靜止
+MainStatesConfig.GAME_STATUS_IDLE = 'GAME_STATUS_IDLE';
+// 轉動前特效
+MainStatesConfig.GAME_STATUS_BEFORE_SPIN = 'GAME_STATUS_BEFORE_SPIN';
+// 轉動
+MainStatesConfig.GAME_STATUS_SPIN = 'GAME_STATUS_SPIN';
+// 轉動後特效
+MainStatesConfig.GAME_STATUS_BEFORE_SHOWWIN = 'GAME_STATUS_BEFORE_SHOWWIN';
+// 秀線
+MainStatesConfig.GAME_STATUS_SHOWWIN = 'GAME_STATUS_SHOWWIN';
+// 特殊秀線
+MainStatesConfig.GAME_STATUS_SHOWWIN_EXTRA = 'GAME_STATUS_SHOWWIN_EXTRA';
+
+// # Free Game
+// FG觸發
+MainStatesConfig.GAME_STATUS_FG_TRIGGER = 'GAME_STATUS_FG_TRIGGER';
+// FG LUCKY_BONUS
+MainStatesConfig.GAME_STATUS_FG_LUCKY_BONUS = 'GAME_STATUS_FG_LUCKY_BONUS';
+// FG靜止
+MainStatesConfig.GAME_STATUS_FG_IDLE = 'GAME_STATUS_FG_IDLE';
+// FG轉動前特效
+MainStatesConfig.GAME_STATUS_FG_BEFORE_SPIN = 'GAME_STATUS_FG_BEFORE_SPIN';
+// FG轉動
+MainStatesConfig.GAME_STATUS_FG_SPIN = 'GAME_STATUS_FG_SPIN';
+// FG轉動後特效
+MainStatesConfig.GAME_STATUS_FG_BEFORE_SHOWWIN = 'GAME_STATUS_FG_BEFORE_SHOWWIN';
+// FG秀線
+MainStatesConfig.GAME_STATUS_FG_SHOWWIN = 'GAME_STATUS_FG_SHOWWIN';
+// FG特殊秀線
+MainStatesConfig.GAME_STATUS_FG_SHOWWIN_EXTRA = 'GAME_STATUS_FG_SHOWWIN_EXTRA';
+// FG結算
+MainStatesConfig.GAME_STATUS_FG_COMPLETE = 'GAME_STATUS_FG_COMPLETE';
+
+// # Bonus Game
+// 觸發Bonus Game
+MainStatesConfig.GAME_STATUS_BG_TRIGGER = 'GAME_STATUS_BG_TRIGGER';
+// Bonus Game 靜止中
+MainStatesConfig.GAME_STATUS_BG_IDLE = 'GAME_STATUS_BG_IDLE';
+// Bonus Game遊玩中
+MainStatesConfig.GAME_STATUS_BG_SPIN = 'GAME_STATUS_BG_SPIN';
+// Bonus Game完成
+MainStatesConfig.GAME_STATUS_BG_COMPLETE = 'GAME_STATUS_BG_COMPLETE';
+
+// # Jackpot
+// 觸發Jackpot
+MainStatesConfig.GAME_STATUS_JP_TRIGGER = 'GAME_STATUS_JP_TRIGGER';
+// Jackpot 靜止中
+MainStatesConfig.GAME_STATUS_JP_IDLE = 'GAME_STATUS_JP_IDLE';
+// Jackpot遊玩中
+MainStatesConfig.GAME_STATUS_JP_SPIN = 'GAME_STATUS_JP_SPIN';
+// Jackpot完成
+MainStatesConfig.GAME_STATUS_JP_COMPLETE = 'GAME_STATUS_JP_COMPLETE';
+
+export default MainStatesConfig;
