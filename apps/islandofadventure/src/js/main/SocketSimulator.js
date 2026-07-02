@@ -26,6 +26,10 @@ export default class SocketSimulator extends GameBase {
         this.loginSendMsg = new LoginSend();
 
         this.fakeDataMode = true;
+        // 前端單機 demo：不連任何後端，Init/Spin 由本地產生
+        this.offlineDemo = true;
+        // offline spin 計數：每第 3 次回罐頭中獎封包
+        this.offlineSpinCount = 0;
         this.currentLocalData = Object.create(null);
         this.currentLocalData.logintype = 3;
 
@@ -306,6 +310,11 @@ export default class SocketSimulator extends GameBase {
 // ========================================= agent ===============================================
 
     connect() {
+        if (this.offlineDemo) {
+            // 模擬連線成功後即發登入
+            setTimeout(() => this.sendLoginReq(), 0);
+            return;
+        }
         if (!this.token || !this.apiUrl) {
             this.onConnectError();
             return;
@@ -348,6 +357,10 @@ export default class SocketSimulator extends GameBase {
     sendWSOperation(packetID, param) {
         switch (packetID) {
             case SocketStatesConfig.LOGIN: {
+                if (this.offlineDemo) {
+                    this.onWSMessage(JSON.stringify(this.makeFakeInit()));
+                    break;
+                }
                 this.webSocket.send(
                     JSON.stringify(
                         {
@@ -434,6 +447,10 @@ export default class SocketSimulator extends GameBase {
             }
             case SocketStatesConfig.SEND_BASE_PLAY: {
                 this.currentTotalBet = sendData.PlayBet * this.betData.BaseBet;
+                if (this.offlineDemo) {
+                    this.onWSMessage(JSON.stringify(this.makeFakeSpin(sendData)));
+                    break;
+                }
                 const playSimulatedData = Object.create(null);
                 playSimulatedData.Method = 'Spin';
                 playSimulatedData.Data = Object.create(null);
@@ -1067,6 +1084,89 @@ export default class SocketSimulator extends GameBase {
             JSON.stringify(data)
         ];
         this.apiContext.onGetOpcodeResult(2, inversePacket);
+    }
+
+    // 產生本地 Init（login）封包，欄位對齊 responseLogin/onWSMessage('Init')
+    makeFakeInit() {
+        return {
+            Method: 'Init',
+            Credit: 1000000,
+            Data: {
+                BaseBet: 1,
+                BetMultipleRange: [ 1, 2, 4, 6, 10, 20, 40, 60 ],
+                DefaultBetMultipleIndex: 0,
+                LineRange: [ 1 ],
+                DefaultLineIndex: 0
+            }
+        };
+    }
+
+    // 產生本地 Spin 封包，欄位對齊 responsePlay/onWSMessage('Spin')
+    // 預設回合法「不中獎」結果；每第 3 次 spin 改回罐頭中獎（makeFakeWinSpin）。
+    makeFakeSpin(sendData) {
+        const baseBet = (this.betData && this.betData.BaseBet) ? this.betData.BaseBet : 1;
+        const cost = sendData.PlayBet * baseBet;
+        if (typeof this.currentLocalData.playerCredit !== 'number') {
+            this.currentLocalData.playerCredit = 1000000;
+        }
+        this.currentLocalData.playerCredit -= cost;
+        this.offlineSpinCount += 1;
+        if (this.offlineSpinCount % 3 === 0) {
+            return this.makeFakeWinSpin();
+        }
+
+        // 15 = NUM_ROWS(3) * NUM_REELS(5)，row-major；刻意錯開避免任一 symbol 連三輪
+        const loseSymbols = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4, 5, 6, 7 ];
+
+        return {
+            Method: 'Spin',
+            SN: 1,
+            Credit: this.currentLocalData.playerCredit,
+            Data: {
+                RngData: [ 1, 1, 1, 1, 1 ],
+                WinType: 0,
+                SymbolResult: loseSymbols,
+                ExtraSymbolResult: null,
+                WinPrize: 0,
+                TotalWinPrize: 0,
+                WinLine: [],
+                FreeGameData: null,
+                ExtraData: {}
+            }
+        };
+    }
+
+    // 罐頭中獎：SocketSimulator.js line 1073 真實擷取封包原樣，僅
+    // (1) 移除 ExtraData.GF_RESPIN（避免觸發 respin 流程，餘 ExtraData 為空物件）
+    // (2) 頂層 Credit 依當前餘額重算（勿照抄樣本的 100）
+    // 中獎金額 1000 為樣本擷取當時注額所得，不依當前 bet 縮放（demo 可接受）。
+    makeFakeWinSpin() {
+        this.currentLocalData.playerCredit += 1000; // = WinPrize
+        return {
+            Method: 'Spin',
+            SN: 1,
+            Credit: this.currentLocalData.playerCredit,
+            Data: {
+                RngData: [ 1, 80, 1, 11, 9 ],
+                WinType: 1,
+                SymbolResult: [ 1, 8, 1, 1, 5, 1, 8, 1, 1, 7, 1, 1, 1, 5, 7 ],
+                ExtraSymbolResult: null,
+                WinPrize: 1000,
+                TotalWinPrize: 1000,
+                WinLine: [
+                    { SymbolId: 1, Prize: 125, SymbolCount: 3, WinLineNo: 6, WinLinePosition: [ [ 1, 0, 1, 0, 0 ], [ 0, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0 ] ], LineMultiplier: 0 },
+                    { SymbolId: 1, Prize: 125, SymbolCount: 3, WinLineNo: 7, WinLinePosition: [ [ 1, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0 ], [ 0, 1, 0, 0, 0 ] ], LineMultiplier: 0 },
+                    { SymbolId: 1, Prize: 125, SymbolCount: 3, WinLineNo: 8, WinLinePosition: [ [ 1, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0 ], [ 0, 1, 1, 0, 0 ] ], LineMultiplier: 0 },
+                    { SymbolId: 1, Prize: 125, SymbolCount: 3, WinLineNo: 15, WinLinePosition: [ [ 0, 0, 1, 0, 0 ], [ 1, 0, 0, 0, 0 ], [ 0, 1, 0, 0, 0 ] ], LineMultiplier: 0 },
+                    { SymbolId: 1, Prize: 125, SymbolCount: 3, WinLineNo: 16, WinLinePosition: [ [ 0, 0, 0, 0, 0 ], [ 1, 0, 1, 0, 0 ], [ 0, 1, 0, 0, 0 ] ], LineMultiplier: 0 },
+                    { SymbolId: 1, Prize: 125, SymbolCount: 3, WinLineNo: 17, WinLinePosition: [ [ 0, 0, 0, 0, 0 ], [ 1, 0, 0, 0, 0 ], [ 0, 1, 1, 0, 0 ] ], LineMultiplier: 0 },
+                    { SymbolId: 1, Prize: 125, SymbolCount: 3, WinLineNo: 24, WinLinePosition: [ [ 0, 0, 0, 0, 0 ], [ 0, 0, 1, 0, 0 ], [ 1, 1, 0, 0, 0 ] ], LineMultiplier: 0 },
+                    { SymbolId: 1, Prize: 125, SymbolCount: 3, WinLineNo: 25, WinLinePosition: [ [ 0, 0, 0, 0, 0 ], [ 0, 0, 0, 0, 0 ], [ 1, 1, 1, 0, 0 ] ], LineMultiplier: 0 }
+                ],
+                FreeGameData: null,
+                ExtraData: {}
+            }
+        };
     }
 
     responsePlay(data) {
