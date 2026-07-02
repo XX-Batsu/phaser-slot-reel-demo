@@ -11,7 +11,8 @@
     ],
     "nohoist": [
       "**/slot-base",
-      "**/GameExternal"
+      "**/GameExternal",
+      "**/bs-html-injector"
     ]
   },
   "scripts": {
