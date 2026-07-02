@@ -1,0 +1,28 @@
+{"frames": {
+
+"btn_tackmoney.png":
+{
+	"frame": {"x":1,"y":1,"w":72,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":9,"w":72,"h":105},
+	"sourceSize": {"w":89,"h":123}
+},
+"btn_tackmoney01.png":
+{
+	"frame": {"x":75,"y":1,"w":89,"h":123},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":89,"h":123},
+	"sourceSize": {"w":89,"h":123}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "baseButtonTakeWin.png",
+	"format": "RGBA8888",
+	"size": {"w":165,"h":125},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9c8d5fdc244ba922f23580a6fe4375b6:c4ca11e3243e974a45ae096ce1f0e3ae:5579b7bee5447ad20b398327aea09080$"
+}
+}

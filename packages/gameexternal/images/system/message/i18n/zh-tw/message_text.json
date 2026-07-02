@@ -1,0 +1,28 @@
+{"frames": {
+
+"prompttitle_001.png":
+{
+	"frame": {"x":1,"y":1,"w":149,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":63},
+	"sourceSize": {"w":149,"h":63}
+},
+"text_to_leave.png":
+{
+	"frame": {"x":152,"y":1,"w":564,"h":49},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":564,"h":49},
+	"sourceSize": {"w":564,"h":49}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "message_text.png",
+	"format": "RGBA8888",
+	"size": {"w":717,"h":65},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b4ade485fe0787709da400045f011957:4760569857ca1c661aaebb55c2a7cea4:cc71b0cab9cfb306777598ce62d133d6$"
+}
+}

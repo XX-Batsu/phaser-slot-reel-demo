@@ -1,0 +1,20 @@
+{"frames": {
+
+"settlementtitle_001.png":
+{
+	"frame": {"x":1,"y":1,"w":149,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":63},
+	"sourceSize": {"w":149,"h":63}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cashout_text.png",
+	"format": "RGBA8888",
+	"size": {"w":151,"h":65},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ab5d73b5bc2c46e334264960f4d70fc7:9e1b60be0fa53ed2677725626f7f8f6b:bc9e7fff247cd89ec0cc1675ff2d51d7$"
+}
+}

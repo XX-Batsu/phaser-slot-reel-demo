@@ -1,0 +1,20 @@
+{"frames": {
+
+"instructionsttitle_001.png":
+{
+	"frame": {"x":1,"y":1,"w":313,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":313,"h":64},
+	"sourceSize": {"w":313,"h":64}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "help_text.png",
+	"format": "RGBA8888",
+	"size": {"w":315,"h":66},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ba7fcda3dd8fa4b76d5fc64454ee08c4:40b879ce748bc7d7c6d3158b90f82d97:21eacc667580237261c109c1329f9662$"
+}
+}

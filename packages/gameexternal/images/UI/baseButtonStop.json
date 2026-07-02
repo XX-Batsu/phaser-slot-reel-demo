@@ -1,0 +1,28 @@
+{"frames": {
+
+"btn_stop_normal.png":
+{
+	"frame": {"x":1,"y":1,"w":100,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":15,"w":100,"h":101},
+	"sourceSize": {"w":132,"h":131}
+},
+"btn_stop_press.png":
+{
+	"frame": {"x":103,"y":1,"w":132,"h":131},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":132,"h":131},
+	"sourceSize": {"w":132,"h":131}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "baseButtonStop.png",
+	"format": "RGBA8888",
+	"size": {"w":236,"h":133},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d5d599e78037e4331af29d249cf6e316:14b0c41a9e6721ffcb72dfbcb152209c:74430e82e3433e3a2c4baa3a386c110d$"
+}
+}

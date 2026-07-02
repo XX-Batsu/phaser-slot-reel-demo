@@ -1,0 +1,28 @@
+{"frames": {
+
+"btn_bg03_normal.png":
+{
+	"frame": {"x":177,"y":1,"w":155,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":2,"w":155,"h":216},
+	"sourceSize": {"w":174,"h":229}
+},
+"btn_bg03_press.png":
+{
+	"frame": {"x":1,"y":1,"w":174,"h":229},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":174,"h":229},
+	"sourceSize": {"w":174,"h":229}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "baseButtonMenuOptions.png",
+	"format": "RGBA8888",
+	"size": {"w":333,"h":231},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5e228944bd4d89ea8c9d0f86d257632c:e012fda4d60d3b60e9b4e6c152de84ae:d75efc8a7aeb260e9476f3c26b801f7b$"
+}
+}

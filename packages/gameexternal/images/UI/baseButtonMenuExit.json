@@ -1,0 +1,28 @@
+{"frames": {
+
+"btn_system_quit_down.png":
+{
+	"frame": {"x":1,"y":1,"w":113,"h":112},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":113,"h":112},
+	"sourceSize": {"w":115,"h":113}
+},
+"btn_system_quit_up.png":
+{
+	"frame": {"x":116,"y":1,"w":82,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":15,"w":82,"h":85},
+	"sourceSize": {"w":115,"h":113}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "baseButtonMenuExit.png",
+	"format": "RGBA8888",
+	"size": {"w":199,"h":114},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:fe56f58c803853240a7debc90f072d42:e9ac243501922871135966539ed6a2c7:d621feb0482519a28ad1fd88e56fad1a$"
+}
+}

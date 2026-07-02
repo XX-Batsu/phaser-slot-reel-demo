@@ -1,0 +1,10 @@
+{
+  "name": "GameExternal",
+  "version": "0.1.2",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "ISC"
+}

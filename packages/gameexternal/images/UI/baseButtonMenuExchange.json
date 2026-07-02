@@ -1,0 +1,28 @@
+{"frames": {
+
+"btn_system_exchange_down.png":
+{
+	"frame": {"x":1,"y":1,"w":113,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":113,"h":113},
+	"sourceSize": {"w":115,"h":113}
+},
+"btn_system_exchange_up.png":
+{
+	"frame": {"x":116,"y":1,"w":80,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":16,"w":80,"h":84},
+	"sourceSize": {"w":115,"h":113}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "baseButtonMenuExchange.png",
+	"format": "RGBA8888",
+	"size": {"w":197,"h":115},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a4d28a532e1490029e8ebb904697996f:05b736dc99f18657b1dfb083f930a319:a3211df0b6e85dff1557b60736b4bcfe$"
+}
+}

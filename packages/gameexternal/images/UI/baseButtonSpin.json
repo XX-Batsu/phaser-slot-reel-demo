@@ -1,0 +1,28 @@
+{"frames": {
+
+"btn_spin_normal.png":
+{
+	"frame": {"x":1,"y":1,"w":136,"h":136},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":15,"w":136,"h":136},
+	"sourceSize": {"w":168,"h":166}
+},
+"btn_spin_press.png":
+{
+	"frame": {"x":139,"y":1,"w":168,"h":166},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":168,"h":166},
+	"sourceSize": {"w":168,"h":166}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "baseButtonSpin.png",
+	"format": "RGBA8888",
+	"size": {"w":308,"h":168},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:8a260165eb193ff5aa93d4eaed539a6b:5c176f318618075589a69f0750750435:99667a07080eb02a4998e18c7ff6ac72$"
+}
+}

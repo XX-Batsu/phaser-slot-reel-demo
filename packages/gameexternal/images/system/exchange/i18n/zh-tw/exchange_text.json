@@ -1,0 +1,196 @@
+{"frames": {
+
+"system_icon_currency_bonus.png":
+{
+	"frame": {"x":205,"y":533,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"system_icon_currency_coin.png":
+{
+	"frame": {"x":1,"y":533,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"system_icon_currency_coupon.png":
+{
+	"frame": {"x":307,"y":533,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"system_icon_currency_ulgcoin.png":
+{
+	"frame": {"x":103,"y":533,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100}
+},
+"text_exchange_currency_sort_0.png":
+{
+	"frame": {"x":1,"y":36,"w":70,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":70,"h":34},
+	"sourceSize": {"w":70,"h":34}
+},
+"text_exchange_currency_sort_1.png":
+{
+	"frame": {"x":235,"y":1,"w":108,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":108,"h":33},
+	"sourceSize": {"w":108,"h":33}
+},
+"text_exchange_currency_sort_2.png":
+{
+	"frame": {"x":164,"y":1,"w":69,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":69,"h":33},
+	"sourceSize": {"w":69,"h":33}
+},
+"text_exchange_currency_sort_3.png":
+{
+	"frame": {"x":345,"y":1,"w":71,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":33},
+	"sourceSize": {"w":71,"h":33}
+},
+"transferbox_btn_count010_nor.png":
+{
+	"frame": {"x":1,"y":241,"w":292,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":292,"h":88},
+	"sourceSize": {"w":292,"h":88}
+},
+"transferbox_btn_count010_pre.png":
+{
+	"frame": {"x":148,"y":151,"w":292,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":292,"h":88},
+	"sourceSize": {"w":292,"h":88}
+},
+"transferbox_btn_count011_nor.png":
+{
+	"frame": {"x":1,"y":432,"w":452,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":452,"h":99},
+	"sourceSize": {"w":452,"h":99}
+},
+"transferbox_btn_count011_pre.png":
+{
+	"frame": {"x":1,"y":331,"w":452,"h":99},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":452,"h":99},
+	"sourceSize": {"w":452,"h":99}
+},
+"transferbox_btn_update.png":
+{
+	"frame": {"x":1,"y":635,"w":135,"h":187},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":187},
+	"sourceSize": {"w":135,"h":187}
+},
+"transferbox_btn_update_pre.png":
+{
+	"frame": {"x":138,"y":635,"w":135,"h":187},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":187},
+	"sourceSize": {"w":135,"h":187}
+},
+"transfertitle_001.png":
+{
+	"frame": {"x":159,"y":77,"w":150,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":64},
+	"sourceSize": {"w":150,"h":64}
+},
+"transfertitle_text_01.png":
+{
+	"frame": {"x":231,"y":36,"w":156,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":39},
+	"sourceSize": {"w":156,"h":39}
+},
+"transfertitle_text_02.png":
+{
+	"frame": {"x":1,"y":77,"w":156,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":39},
+	"sourceSize": {"w":156,"h":39}
+},
+"transfertitle_text_03.png":
+{
+	"frame": {"x":73,"y":36,"w":156,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":39},
+	"sourceSize": {"w":156,"h":39}
+},
+"transfertitle_text_05.png":
+{
+	"frame": {"x":1,"y":1,"w":161,"h":30},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":161,"h":30},
+	"sourceSize": {"w":161,"h":30}
+},
+"un_currency_001.png":
+{
+	"frame": {"x":385,"y":77,"w":71,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":72},
+	"sourceSize": {"w":71,"h":72}
+},
+"un_currency_002.png":
+{
+	"frame": {"x":1,"y":151,"w":71,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":72},
+	"sourceSize": {"w":71,"h":72}
+},
+"un_currency_003.png":
+{
+	"frame": {"x":311,"y":77,"w":72,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":72},
+	"sourceSize": {"w":72,"h":72}
+},
+"un_currency_004.png":
+{
+	"frame": {"x":74,"y":151,"w":72,"h":72},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":72,"h":72},
+	"sourceSize": {"w":72,"h":72}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "exchange_text.png",
+	"format": "RGBA8888",
+	"size": {"w":457,"h":823},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:516d6b250e337de5acb3e1d5766b3acb:aefead748db174a669928d4bb0361d91:417ef0f08894fb13825ae103135e537e$"
+}
+}

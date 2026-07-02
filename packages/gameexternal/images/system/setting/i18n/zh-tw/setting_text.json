@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "settitle_001.png",
+	"frame": {"x":74,"y":0,"w":149,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":149,"h":64},
+	"sourceSize": {"w":149,"h":64}
+},
+{
+	"filename": "text_mode.png",
+	"frame": {"x":0,"y":111,"w":216,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":47},
+	"sourceSize": {"w":216,"h":47}
+},
+{
+	"filename": "text_music.png",
+	"frame": {"x":0,"y":64,"w":216,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":216,"h":47},
+	"sourceSize": {"w":216,"h":47}
+},
+{
+	"filename": "text_off.png",
+	"frame": {"x":36,"y":0,"w":38,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":38,"h":39},
+	"sourceSize": {"w":38,"h":39}
+},
+{
+	"filename": "text_open.png",
+	"frame": {"x":0,"y":0,"w":36,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":36,"h":39},
+	"sourceSize": {"w":36,"h":39}
+},
+{
+	"filename": "text_sound.png",
+	"frame": {"x":0,"y":158,"w":217,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":217,"h":47},
+	"sourceSize": {"w":217,"h":47}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "setting_text.png",
+	"format": "RGBA8888",
+	"size": {"w":223,"h":205},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:b0a476aba77315ebcb517fe3e3d73393:d9b791c722fce30220ca95c75eba8cbd:bade7f584e1295cef3c4e406c7769c02$"
+}
+}

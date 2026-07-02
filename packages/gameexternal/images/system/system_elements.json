@@ -1,0 +1,132 @@
+{"frames": [
+
+{
+	"filename": "btn_arrow_nor.png",
+	"frame": {"x":478,"y":0,"w":90,"h":206},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":206},
+	"sourceSize": {"w":90,"h":206}
+},
+{
+	"filename": "btn_arrow_pres.png",
+	"frame": {"x":388,"y":0,"w":90,"h":206},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":90,"h":206},
+	"sourceSize": {"w":90,"h":206}
+},
+{
+	"filename": "btn_close_nor.png",
+	"frame": {"x":568,"y":0,"w":92,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":93},
+	"sourceSize": {"w":92,"h":93}
+},
+{
+	"filename": "btn_close_pre.png",
+	"frame": {"x":660,"y":0,"w":92,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":93},
+	"sourceSize": {"w":92,"h":93}
+},
+{
+	"filename": "btn_more_normal.png",
+	"frame": {"x":226,"y":0,"w":73,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":54},
+	"sourceSize": {"w":73,"h":54}
+},
+{
+	"filename": "btn_more_press.png",
+	"frame": {"x":153,"y":0,"w":73,"h":54},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":73,"h":54},
+	"sourceSize": {"w":73,"h":54}
+},
+{
+	"filename": "hand.png",
+	"frame": {"x":854,"y":0,"w":146,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":146,"h":160},
+	"sourceSize": {"w":146,"h":160}
+},
+{
+	"filename": "hand01.png",
+	"frame": {"x":752,"y":0,"w":102,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":102,"h":57},
+	"sourceSize": {"w":102,"h":57}
+},
+{
+	"filename": "hand_auto.png",
+	"frame": {"x":299,"y":0,"w":89,"h":43},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":89,"h":43},
+	"sourceSize": {"w":89,"h":43}
+},
+{
+	"filename": "hand_bet.png",
+	"frame": {"x":25,"y":0,"w":63,"h":63},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":63},
+	"sourceSize": {"w":63,"h":63}
+},
+{
+	"filename": "hand_time.png",
+	"frame": {"x":88,"y":0,"w":65,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":65,"h":65},
+	"sourceSize": {"w":65,"h":65}
+},
+{
+	"filename": "hand_time01.png",
+	"frame": {"x":0,"y":0,"w":25,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":25,"h":37},
+	"sourceSize": {"w":25,"h":37}
+},
+{
+	"filename": "title_line.png",
+	"frame": {"x":0,"y":206,"w":1168,"h":3},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1168,"h":3},
+	"sourceSize": {"w":1168,"h":3}
+},
+{
+	"filename": "UIline.png",
+	"frame": {"x":1198,"y":0,"w":295,"h":6},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":295,"h":6},
+	"sourceSize": {"w":295,"h":6}
+},
+{
+	"filename": "UIOverlayBg.png",
+	"frame": {"x":1000,"y":0,"w":198,"h":73},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":198,"h":73},
+	"sourceSize": {"w":198,"h":73}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "system_elements.png",
+	"format": "RGBA8888",
+	"size": {"w":1493,"h":209},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a8daa8d5ff96ba50e7932164122631bc:e9bc81b0252c9274ab7f5e828370098d:d0e5880aac63395103f1bb5781ebb0ff$"
+}
+}
