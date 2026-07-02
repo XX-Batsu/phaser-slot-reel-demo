@@ -1,0 +1,8 @@
+node_modules/
+apps/*/build/
+apps/*/src/dlls/
+apps/*/.happypack/
+packages/slot-base/lib/
+*.log
+.DS_Store
+.history/
