@@ -9,8 +9,6 @@
     "url": ""
   },
   "scripts": {
-    "init:dev": "yarn; yarn run dll:no-base; yarn link 'slot-base'; yarn link 'GameExternal'",
-    "init:build": "yarn unlink 'slot-base'; yarn unlink 'GameExternal'; yarn run reinstall",
     "start": "yarn run base:use-src; DEV_BASE=true NODE_ENV=develop webpack-dashboard -c cyan -t Phaser -- node script/start.js",
     "lint": "eslint src",
     "mock": "supervisor -w mock mock/server.js",
@@ -31,8 +29,6 @@
     "dll:prod": "webpack --config ./webpack/dll.prod.config.js",
     "dll:no-base": "DEV_BASE=true webpack --config ./webpack/dll.config.js",
     "reinstall": "rm -rf node_modules; rm -f yarn.lock; yarn cache clean; yarn",
-    "upgrade:base": "yarn upgrade git+ssh://git@gitlab.com/sixonetechnology/slot-base.git",
-    "upgrade:common": "yarn upgrade git+ssh://git@gitlab.com/sixonetechnology/gameexternal.git",
     "base:use-lib": "sed -i -e 's|src/index|lib/index|' node_modules/slot-base/package.json",
     "base:use-src": "sed -i -e 's|lib/index|src/index|' node_modules/slot-base/package.json"
   },
@@ -42,7 +38,7 @@
     "lodash": "4.17.2"
   },
   "devDependencies": {
-    "GameExternal": "git+ssh://git@gitlab.com/sixonetechnology/gameexternal.git",
+    "GameExternal": "*",
     "add-asset-html-webpack-plugin": "1.0.2",
     "appcache-webpack-plugin": "1.3.0",
     "babel-core": "6.18.2",
@@ -80,7 +76,7 @@
     "jade-loader": "0.8.0",
     "jest": "17.0.3",
     "mockjs": "1.0.1-beta3",
-    "slot-base": "git+ssh://git@gitlab.com/sixonetechnology/slot-base.git",
+    "slot-base": "*",
     "supervisor": "0.12.0",
     "webpack": "1.13.3",
     "webpack-config": "6.2.1",
