@@ -1,0 +1,55 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # git-rev-sync (webpack/base.config.js) reads rev/tag from .git
+          fetch-depth: 0
+
+      # webpack 1.13 / babel 6 / happypack 3 only install and run under Node 10
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '10.24.1'
+
+      - name: Install Yarn 1.x
+        run: npm install -g yarn@1.22.22
+
+      - name: Install workspaces
+        # --ignore-engines: a transitive dep declares engines.node >= 22 but is unused at runtime
+        run: yarn install --ignore-engines --network-timeout 600000
+
+      - name: Build standalone bundle
+        run: yarn build:standalone
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: apps/islandofadventure/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-22.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
