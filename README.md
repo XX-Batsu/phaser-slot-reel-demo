@@ -4,6 +4,8 @@
 [![Node](https://img.shields.io/badge/node-10.x-339933?logo=node.js&logoColor=white)](.nvmrc)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)]()
 
+**Live demo: <https://xx-batsu.github.io/phaser-slot-reel-demo/>**
+
 A Yarn workspaces monorepo demonstrating a Phaser-based slot-reel game client
 that runs standalone on a single machine with **no backend**:
 
@@ -84,6 +86,24 @@ served by `http-server` with no other process and no backend.
 > `build:standalone` switches `slot-base` to its prebuilt `lib`. `yarn start`
 > switches it back to `src` automatically, so you can alternate freely. To reset
 > manually: `node apps/islandofadventure/script/switch-base.js src`.
+
+## GitHub Pages deployment
+
+`.github/workflows/pages.yml` rebuilds and publishes the standalone bundle on
+every push to `main` (and on manual `workflow_dispatch`). The CI job pins Node
+10.24.1 for the same reason local builds do, runs `yarn build:standalone`, and
+uploads `apps/islandofadventure/build` through `actions/deploy-pages`.
+
+Nothing else is required: the build output references every asset relatively
+(`GameExternal/...`, `dll.js`, `app.js`), so it works unchanged under the
+`/phaser-slot-reel-demo/` sub-path, and `offlineDemo = true` means the page
+needs no backend. URL parameters are optional too — without `language`,
+`getCurLangID` falls back to `zh-tw`.
+
+> Running `build:standalone` locally leaves `packages/slot-base/package.json`
+> with `"main": "lib/index.js"` (the app-local `slot-base` is a workspace
+> symlink to the package). Restore it with `git checkout -- packages/slot-base/package.json`
+> or `node apps/islandofadventure/script/switch-base.js src`.
 
 ## Scripts (root)
 
